@@ -1,0 +1,95 @@
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Animated Drop-down Menu CSS3</title>
+      <link rel="stylesheet" href="drop.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+   </head>
+   <body>
+    <div class="items">
+       <label for="butn" class="butn"><a href="#" style="text-decoration: none;">
+        <i  style="color: green;"class="fas fa-shopping-bag"></i>  <b>SHOP ITEMS</b></a>
+       <span class="fas fa-caret-down"></span>
+       </label>
+       <ul class="menu">
+        <li>
+            <label for="btn-1" class="first">Organic Fruits
+            <span class="fas fa-caret-down"></span>
+            </label>
+            <ul>
+               <li><a href="#">Apple</a></li>
+               <li><a href="#">Orange</a></li>
+               <li><a href="#">Banana</a></li>
+               <li><a href="#">Water Melon</a></li>
+               <li><a href="#">Grapes</a></li>
+            </ul>
+            
+         </li>
+         <li>
+            <label for="btn-2" class="second">Organic Fruits
+            <span class="fas fa-caret-down"></span>
+            </label>
+            <ul>
+               <li><a href="#">Apple</a></li>
+               <li><a href="#">Orange</a></li>
+               <li><a href="#">Banana</a></li>
+               <li><a href="#">Water Melon</a></li>
+               <li><a href="#">Grapes</a></li>
+            </ul>
+            
+         </li>
+         <li>
+            <label for="btn-3" class="third">Organic Fruits
+            <span class="fas fa-caret-down"></span>
+            </label>
+            <ul>
+               <li><a href="#">Apple</a></li>
+               <li><a href="#">Orange</a></li>
+               <li><a href="#">Banana</a></li>
+               <li><a href="#">Water Melon</a></li>
+               <li><a href="#">Grapes</a></li>
+            </ul>
+            
+         </li>
+         <li>
+            <label for="btn-4" class="fourth">Organic Fruits
+            <span class="fas fa-caret-down"></span>
+            </label>
+            <ul>
+               <li><a href="#">Apple</a></li>
+               <li><a href="#">Orange</a></li>
+               <li><a href="#">Banana</a></li>
+               <li><a href="#">Water Melon</a></li>
+               <li><a href="#">Grapes</a></li>
+            </ul>
+            
+         </li>
+         <li>
+            <label for="btn-5" class="fifth">Organic Fruits
+            <span class="fas fa-caret-down"></span>
+            </label>
+            <ul>
+               <li><a href="#">Apple</a></li>
+               <li><a href="#">Orange</a></li>
+               <li><a href="#">Banana</a></li>
+               <li><a href="#">Water Melon</a></li>
+               <li><a href="#">Grapes</a></li>
+            </ul>
+            
+         </li>
+       </ul>
+    </div>
+    <script>
+        $('items .butn').click(function(){
+          $('items .butn span').toggleClass("rotate");
+        });
+          $('items ul li .first').click(function(){
+            $('items ul li .first span').toggleClass("rotate");
+          });
+          $('items ul li .second').click(function(){
+            $('items ul li .second span').toggleClass("rotate");
+          });
+     </script>
+   </body></html>
